@@ -1,0 +1,15 @@
+package ee.ubit.undoctrlz;
+
+import org.junit.Test;
+
+import static com.shazam.gwen.collaborators.Asserter;
+import static com.shazam.gwen.collaborators.Actor;
+import static com.shazam.gwen.collaborators.Arranger;
+
+public class UndoCtrlZTest {
+
+	@Test
+	public void testUndo(){
+		
+	}
+}

@@ -1,0 +1,21 @@
+package ee.ubit.undoctrlz;
+
+import com.shazam.gwen.collaborators.Arranger;
+import com.shazam.gwen.collaborators.Asserter;
+
+import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.CoreMatchers.not;
+import static org.junit.Assert.*;
+
+public class Screen implements Asserter, Arranger{
+	
+	public void hasText(String text){
+		UndoCtrlZ undoCtrlZ = new UndoCtrlZ();
+		assertThat(undoCtrlZ.txtArea.getDocument().getText(0,undoCtrlZ.txtArea.getDocument().getLength()),containsString(text));
+	}
+	
+	public void deletesLastLetter(String text){
+		assertThat(text, not(containsString(",")));
+	}
+
+}

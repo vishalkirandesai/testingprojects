@@ -1,0 +1,19 @@
+package ee.ubit.simplecalculator;
+
+import org.junit.Test;
+
+
+public class SimpleCalculatorTest{
+
+	SystemClass system;
+	SimpleCalculator simpleCalculator;
+	
+	@Test
+	public void test()
+	{
+		com.shazam.gwen.Gwen.given(Simpl).doSomething();
+		com.shazam.gwen.Gwen.when(system).doSomething();
+		com.shazam.gwen.Gwen.then(system).doSomething();
+	}
+	
+}

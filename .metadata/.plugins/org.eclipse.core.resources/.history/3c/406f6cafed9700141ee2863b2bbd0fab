@@ -1,0 +1,8 @@
+package ee.ubit.undoctrlz;
+
+import com.shazam.gwen.collaborators.Arranger;
+import com.shazam.gwen.collaborators.Asserter;
+
+public class Screen implements Asserter, Arranger{
+
+}

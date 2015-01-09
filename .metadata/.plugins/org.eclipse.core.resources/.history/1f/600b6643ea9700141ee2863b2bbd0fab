@@ -1,0 +1,9 @@
+package ee.ubit.undoctrlz;
+
+public class UndoCtrlZTest {
+
+	@Test
+	public void testUndo(){
+		
+	}
+}

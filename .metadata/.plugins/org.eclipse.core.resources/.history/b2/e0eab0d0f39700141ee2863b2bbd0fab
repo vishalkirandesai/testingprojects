@@ -1,0 +1,7 @@
+package ee.ubit.undoctrlz;
+
+import com.shazam.gwen.collaborators.Actor;
+
+public class Keyboard implements Actor{
+
+}

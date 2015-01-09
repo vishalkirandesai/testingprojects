@@ -1,0 +1,11 @@
+package ee.ubit.undoctrlz;
+
+import javax.swing.undo.*;
+
+public class UndoableEditEvent {
+
+	 public void undoableEditHappened(UndoableEditEvent evt) {
+		 undo.addEdit(evt.getEdit());
+		 }
+	 
+}

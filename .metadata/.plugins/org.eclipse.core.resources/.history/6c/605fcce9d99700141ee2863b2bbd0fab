@@ -1,0 +1,7 @@
+package ee.ubit.simplecalculator;
+
+import com.shazam.*;
+
+public class SimpleCalculatorTest {
+
+}

@@ -1,0 +1,18 @@
+package ee.ubit.simplecalculator;
+
+import static com.shazam.gwen.gwt.*;
+
+
+public class SimpleCalculatorTest{
+
+	SystemClass system;
+	
+	@Test
+	public void test()
+	{
+		com.shazam.gwen.Gwen.given(system).doSomething();
+		when(system).doSomething();
+		then()
+	}
+	
+}

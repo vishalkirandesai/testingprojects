@@ -1,0 +1,24 @@
+package ee.ubit.undoctrlz;
+
+import org.junit.Test;
+
+public class UndoCtrlZTest {
+
+	Screen screen;
+	UndoCtrlZ undoCtrlZ;
+	
+	public void initialise(){
+		undoCtrlZ = new UndoCtrlZ();
+	}
+	
+	@Test
+	public void testUndo(){
+		String text  = "textIsThis,";
+		com.shazam.gwen.Gwen.given(screen).hasText(text);
+		
+		com.shazam.gwen.Gwen.when(screen).deletesLastLetter(text);
+		
+		com.shazam.gwen.Gwen.then(screen).deletesLastLetter();
+		
+	}
+}

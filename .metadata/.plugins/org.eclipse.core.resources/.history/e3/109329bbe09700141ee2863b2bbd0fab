@@ -1,0 +1,8 @@
+package ee.ubit.simplecalculator;
+
+import com.shazam.gwen.Gwen;
+
+public class SimpleCalculatorTest extends Gwen{
+
+	
+}

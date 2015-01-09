@@ -1,0 +1,9 @@
+package ee.ubit.undoctrlz;
+
+public class UndoableEditEvent {
+
+	 public void undoableEditHappened(UndoableEditEvent evt) {
+		 undo.addEdit(evt.getEdit());
+		 }
+	 
+}

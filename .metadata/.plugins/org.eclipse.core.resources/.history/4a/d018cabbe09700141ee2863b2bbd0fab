@@ -1,0 +1,11 @@
+package ee.ubit.simplecalculator;
+
+import com.shazam.gwen.collaborators.Actor;
+
+public class SystemClass implements Actor  {
+	
+	public void doSomething(){
+		
+	}
+
+}

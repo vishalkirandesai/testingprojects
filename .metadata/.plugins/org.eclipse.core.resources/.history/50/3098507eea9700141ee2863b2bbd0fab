@@ -1,0 +1,13 @@
+package ee.ubit.undoctrlz;
+
+import org.junit.Test;
+
+import static com.shazam.gwen.collaborators.*;
+
+public class UndoCtrlZTest {
+
+	@Test
+	public void testUndo(){
+		
+	}
+}

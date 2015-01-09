@@ -1,0 +1,19 @@
+package ee.ubit.undoctrlz;
+
+import org.junit.Test;
+
+public class UndoCtrlZTest {
+
+	Screen screen;
+	
+	@Test
+	public void testUndo(){
+		String text  = "textIsThis,";
+		given(screen).hasText(text);
+		
+		when(actor).types();
+		
+		then(screen).deletesLastLetter();
+		
+	}
+}
